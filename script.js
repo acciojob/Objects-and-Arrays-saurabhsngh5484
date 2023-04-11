@@ -5,7 +5,12 @@ const person = {
   age: 80,
 };
 
+
+
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+let team= players;
+const team1 = [...players];
+const cap1 = Object.assign({}, person);
 
 window.players = players;
 window.person = person;
